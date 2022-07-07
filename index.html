@@ -1,31 +1,40 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="utf-8">
-  <title>じゃんけん</title>
-  <style>
-    #state{
-      font-weight: bold;
-      color: rgb(0, 55, 255);
-      margin: 10px 0;
-    }
-</style>
+  <meta charset="UTF-8">
+  <meta name="author" content="Mitsushiro Goto">
+  <meta name="keywords" content="HTML,CSS,Javascript">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>自己紹介</title>
 </head>
 <body>
-  <div>あいて:<span id="cpu"></span></div>
-  <div id="state" >最初はグー!じゃんけん・・・</div>
-
+  <header>
+    <h1>後藤三城</h1>
+    <nav>
+      ホーム
+      タグリファレンス
+      問い合わせ
+    </nav>
+  </header>
+  <div>
+    <ul>
+      <li>大学：創価大学　理工学部　共生創造理工学科　1年</li>
+      <li>生年月日：平成15年12月18日</li>
+      <li>出身地：東京都新宿区</li>
+      <li>趣味：アニメ、漫画、</li>
+      <li>サークル：プログラミングサークルの予定</li>
+      <li>好きな食べ物：アイス</li>
+      <li>好きな動物：猫、柴犬、カワウソ</li>
+      <li>今後の抱負：色々なことに挑戦していきたい</li>
+    </ul>
+  </div>
+  <img src="img/nekocatPAR585462412_TP_V4.jpg" alt="猫" width="400">
+  <img src="img/istockphoto-1297172139-612x612.jpg" alt="柴犬" width="400">
+  <img src="img/images.jpg" alt="カワウソ" width="400">
+  <ul>
+    <li><a href="../gm2/index.html">カワウソ</a></li>
+    <li><a href="../gm3/index.html">アイスクリーム</a></li>
+  </ul>
   
-  <div>あなた:<span id="player"></span></div>
-
-  <button id="gu">グー</button>
-  <button id="cho">チョキ</button>
-  <button id="pa">パー</button>
-  <button id="reset">reset</button>
-  <div>勝ち:<span id="win">0</span>回</div>
-  <div>負け:<span id="lose">0</span>回</div>
-  
-  
-  <script src="./js/main.js"></script>
 </body>
 </html>
